@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navSignUp"
+    app:startDestination="@id/SIgnUpfragment2">
+    <fragment
+        android:id="@+id/SIgnUpfragment2"
+        android:name="com.application.mentalhealth.SIgnUpfragment2"
+        android:label="fragment_s_ign_upfragment2"
+        tools:layout="@layout/fragment_s_ign_upfragment2" >
+        <action
+            android:id="@+id/action_SIgnUpfragment2_to_emptyActivity"
+            app:destination="@id/emptyActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/emptyActivity"
+        android:name="com.application.mentalhealth.EmptyActivity"
+        android:label="activity_empty"
+        tools:layout="@layout/activity_empty" />
+</navigation>
