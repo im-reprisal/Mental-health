@@ -7,16 +7,16 @@
 
     <fragment
         android:id="@+id/loginFragment2"
-        android:name="com.application.mentalhealth.LoginFragment2"
+        android:name="com.application.mentalhealth.SplashAndOnBoarding.login.LoginFragment2"
         android:label="fragment_login2"
         tools:layout="@layout/fragment_login2" >
         <action
-            android:id="@+id/action_loginFragment2_to_emptyActivity2"
-            app:destination="@id/emptyActivity2" />
+            android:id="@+id/action_loginFragment2_to_fifthScreen2"
+            app:destination="@id/fifthScreen2" />
     </fragment>
-    <activity
-        android:id="@+id/emptyActivity2"
-        android:name="com.application.mentalhealth.EmptyActivity"
-        android:label="activity_empty"
-        tools:layout="@layout/activity_empty" />
+    <fragment
+        android:id="@+id/fifthScreen2"
+        android:name="com.application.mentalhealth.SplashAndOnBoarding.FifthScreen"
+        android:label="fragment_fifth_screen"
+        tools:layout="@layout/fragment_fifth_screen" />
 </navigation>
